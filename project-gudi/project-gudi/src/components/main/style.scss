@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap');
+$color-one:#005BD5;
+$color-two:#002E6B;
+$color-three:#8B8B8B;
+$color-four:#EEEEEE;
+$porcent-number:100%;
+
+main{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    width: $porcent-number;
+    
+    .section-one{
+        background-image: url("../../assets/background-one.png");
+        background-repeat: no-repeat;
+        height:50vh;
+        max-width:100em;
+    }
+}
